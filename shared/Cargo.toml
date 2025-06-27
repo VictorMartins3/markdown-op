@@ -1,0 +1,11 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2021"
+description = "Shared types and utilities for markdown mirror"
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+similar = { workspace = true }
+anyhow = { workspace = true } 
